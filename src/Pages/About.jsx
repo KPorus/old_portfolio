@@ -4,7 +4,6 @@ import pic from "../asset/20221130_163512.png";
 import { BsFillTelephoneForwardFill } from "react-icons/bs";
 import { IoMdMailUnread } from "react-icons/io";
 import { FaLocationArrow } from "react-icons/fa";
-import Skill from "./Skill";
 const About = () => {
   return (
     <div>

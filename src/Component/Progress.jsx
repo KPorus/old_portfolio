@@ -8,7 +8,7 @@ const Progress = ({ done }) => {
       width: `${done}%`,
     };
     setstyle(newStyle);
-  }, 100);
+  }, 20);
   return (
     <div className="progress">
       <div style={style} className='progress-done'>

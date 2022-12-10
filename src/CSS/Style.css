@@ -24,3 +24,39 @@
 	opacity: 0;
 	transition: 1s ease 0.3s;
 }
+
+.pc:hover{
+	background: green;
+	transition: all linear 300ms;
+	-webkit-transition: all linear 300ms;
+	-moz-transition: all linear 300ms;
+	-ms-transition: all linear 300ms;
+	-o-transition: all linear 300ms;
+}
+.pc:hover .tec
+{
+	color: white;
+	transition: all linear 300ms;
+	-webkit-transition: all linear 300ms;
+	-moz-transition: all linear 300ms;
+	-ms-transition: all linear 300ms;
+	-o-transition: all linear 300ms;
+}
+.pc:hover .icon
+{
+	color: white;
+	transition: all linear 300ms;
+	-webkit-transition: all linear 300ms;
+	-moz-transition: all linear 300ms;
+	-ms-transition: all linear 300ms;
+	-o-transition: all linear 300ms;
+}
+
+
+.btn-primary:hover, .btn-primary.btn-active {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--pf, var(--p)) / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: transparent;
+	color: #000;
+}

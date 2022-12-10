@@ -3,6 +3,7 @@ import Main from "../layout/Main";
 import Home from "../Pages/Home";
 import About from "../Pages/About"
 import Skill from "../Pages/Skill";
+import Project from "../Pages/Project";
 
 let route = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ let route = createBrowserRouter([
             {
                 path:"/skill",
                 element:<Skill/>,
+            },
+            {
+                path:"/project",
+                element:<Project/>,
             }
         ]
     }
