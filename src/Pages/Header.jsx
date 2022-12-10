@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "../CSS/Style.css"
 const Header = () => {
   return (
     <div className='navbar '>
@@ -59,7 +59,7 @@ const Header = () => {
         </ul>
       </div>
       <div className='navbar-end'>
-        <a className='btn'>Get started</a>
+        <Link to="/contract" className='btn uppercase bg-transparent border-[green]'>Let's Talk</Link>
       </div>
     </div>
   );

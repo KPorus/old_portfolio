@@ -7,7 +7,7 @@ import "../CSS/Style.css";
 const Project = () => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2  gap-14'>
-      <div className='card lg:card-side shadow-xl pc'>
+      <div className='card lg:card-side shadow-xl border pc'>
         <div className='card-body'>
           <h1 className='card-title font-bold'>Learning Platform </h1>
           <h2>Feature:</h2>
@@ -73,7 +73,7 @@ const Project = () => {
         </div>
       </div>
 
-      <div className='card lg:card-side shadow-xl pc'>
+      <div className='card lg:card-side shadow-xl border pc'>
         <div className='card-body'>
           <h2 className='card-title'>Photography</h2>
           <h2>Feature:</h2>
@@ -138,7 +138,7 @@ const Project = () => {
         </div>
       </div>
 
-      <div className='card lg:card-side shadow-xl  pc'>
+      <div className='card lg:card-side shadow-xl border pc'>
         <div className='card-body'>
           <h2 className='card-title'>Selecting Five player!</h2>
           <h2>Feature:</h2>
@@ -182,7 +182,7 @@ const Project = () => {
         </div>
       </div>
 
-      <div className='card lg:card-side shadow-xl pc'>
+      <div className='card lg:card-side shadow-xl border pc'>
         <div className='card-body'>
           <h2 className='card-title'>Quiz For developer</h2>
           <h2>Feature:</h2>

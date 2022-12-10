@@ -4,6 +4,7 @@ import Home from "../Pages/Home";
 import About from "../Pages/About"
 import Skill from "../Pages/Skill";
 import Project from "../Pages/Project";
+import Contract from "../Pages/Contract";
 
 let route = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ let route = createBrowserRouter([
             {
                 path:"/project",
                 element:<Project/>,
+            },
+            {
+                path:"/contract",
+                element:<Contract/>,
             }
         ]
     }
