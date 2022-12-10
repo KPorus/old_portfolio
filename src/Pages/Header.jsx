@@ -25,24 +25,24 @@ const Header = () => {
             tabIndex={0}
             className='menu menu-compact dropdown-content mt-3 p-2 shadow  rounded-box w-52 font-bold text-green-600'>
             <li>
-              <Link to='\'>HOME</Link>
+              <Link to='/'>HOME</Link>
             </li>
             <li>
-              <Link to='\'>ABOUT ME</Link>
+              <Link to='/about'>ABOUT ME</Link>
             </li>
           </ul>
         </div>
-        <Link to='\' className='text-xl text-green-500 font-bold'>
-          MD.FADIN KHAN
+        <Link to='/' className='text-xl text-green-500 font-bold'>
+          FADIN KHAN
         </Link>
       </div>
       <div className='navbar-center hidden lg:flex'>
         <ul className='menu menu-horizontal px-1 font-bold text-green-600'>
           <li>
-            <Link to='\'>HOME</Link>
+            <Link to='/'>HOME</Link>
           </li>
           <li>
-            <Link to='\'>ABOUT ME</Link>
+          <Link to='/about'>ABOUT ME</Link>
           </li>
         </ul>
       </div>

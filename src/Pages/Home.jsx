@@ -1,35 +1,42 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import Resume from "../asset/Resume.pdf";
+import Pic from "../asset/20221130_163512.png"
+import Social from "./Social";
+import "../CSS/Style.css";
 const Home = () => {
   return (
-    <dv className='contaner flex flex-col items-center justify-center relative top-[10rem]'>
-      <div className='text-center text-xl font-bold'>
-        <h1 className='py-4 text-5xl'>
-          Hi{""}
-          <br />
-          I am {""}
-          <span style={{ color: "green", fontWeight: "bold" }}>
-            <Typewriter
-              words={["Fardin Khan","Front-End web developer"]}
-              loop={5}
-              cursor
-              cursorStyle='_'
-              typeSpeed={100}
-              deleteSpeed={50}
-              delaySpeed={1000}
-            />
-          </span>
-        </h1>
-       
+    <div>
+      <div >
+        <img className="sm:w-[20%] w-[50%] relative sm:left-[40%] left-[30%] mt-4 rounded-full overflow-hidden" src={Pic} alt="pic" />
       </div>
-      <a
+      <div className='contaner flex flex-col items-center justify-center relative top-[2rem]'>
+        <div className='text-center text-xl font-bold'>
+          <h1 className='py-4 text-5xl'>
+            Hi{""}
+            <br />I am {""}
+            <span style={{ color: "green", fontWeight: "bold" }}>
+              <Typewriter
+                words={["Fardin Khan", "Front-End web developer"]}
+                loop={1000}
+                cursor
+                cursorStyle='_'
+                typeSpeed={100}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
+            </span>
+          </h1>
+        </div>
+        <a
           href={Resume}
           download
-          className='w-[25%] btn text-sm font-medium text-green-700'>
+          className='md:w-[25%] btn bg-transparent text-sm font-medium text-green-700 uppercase'>
           Download Resume
         </a>
-    </dv>
+        <Social></Social>
+      </div>
+    </div>
   );
 };
 

@@ -1,0 +1,29 @@
+.bg-img{
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+}
+.bg-img::after {
+   width: 21.5%;
+   height: 101%;
+   position: absolute;
+   content: "";
+   top: 0;
+   left: 0;
+   background: #14141463;
+   border-radius: 5;
+   -webkit-border-radius: 5;
+   -moz-border-radius: 5;
+   -ms-border-radius: 5;
+   -o-border-radius: 5;
+}
+
+.bg-img::after:hover{
+   transform: scaleX(0.5);
+   -webkit-transform: scaleX(0.5);
+   -moz-transform: scaleX(0.5);
+   -ms-transform: scaleX(0.5);
+   -o-transform: scaleX(0.5);
+}
