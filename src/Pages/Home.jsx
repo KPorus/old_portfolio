@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       <div >
-        <img className="sm:w-[20%] w-[50%] relative sm:left-[40%] left-[30%] mt-4 rounded-full overflow-hidden" src={Pic} alt="pic" />
+        <img className="sm:w-[20%] w-[50%] relative sm:left-[40%] left-[25%] mt-4 rounded-full overflow-hidden" src={Pic} alt="pic" />
       </div>
       <div className='contaner flex flex-col items-center justify-center relative top-[2rem]'>
         <div className='text-center text-xl font-bold'>
