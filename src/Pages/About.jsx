@@ -7,12 +7,12 @@ import { FaLocationArrow } from "react-icons/fa";
 const About = () => {
   return (
     <div>
-      <div className='hero min-h-screen w-[70%] mx-auto'>
+      <div className='hero min-h-screen mx-auto'>
         <div className='hero-content flex-col lg:flex-row-reverse'>
           <img
             src={pic}
             alt='about'
-            className='rounded-lg shadow-2xl max-w-sm w-[35%]'
+            className='rounded-lg shadow-2xl max-w-sm sm:w-[35%] w-[50%]'
           />
           <div>
             <h1 className='text-5xl font-bold uppercase'>
