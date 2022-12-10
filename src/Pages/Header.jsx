@@ -30,6 +30,9 @@ const Header = () => {
             <li>
               <Link to='/about'>ABOUT ME</Link>
             </li>
+            <li>
+              <Link to='/skill'>SKILLS</Link>
+            </li>
           </ul>
         </div>
         <Link to='/' className='text-xl text-green-500 font-bold'>
@@ -42,7 +45,10 @@ const Header = () => {
             <Link to='/'>HOME</Link>
           </li>
           <li>
-          <Link to='/about'>ABOUT ME</Link>
+            <Link to='/about'>ABOUT ME</Link>
+          </li>
+          <li>
+            <Link to='/skill'>SKILLS</Link>
           </li>
         </ul>
       </div>

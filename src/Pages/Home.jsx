@@ -3,7 +3,6 @@ import { Typewriter } from "react-simple-typewriter";
 import Resume from "../asset/Resume.pdf";
 import Pic from "../asset/20221130_163512.png"
 import Social from "./Social";
-import "../CSS/Style.css";
 const Home = () => {
   return (
     <div>
@@ -17,7 +16,7 @@ const Home = () => {
             <br />I am {""}
             <span style={{ color: "green", fontWeight: "bold" }}>
               <Typewriter
-                words={["Fardin Khan", "Front-End web developer"]}
+                words={["Fardin Khan", "Front-End web developer,Web Developer"]}
                 loop={1000}
                 cursor
                 cursorStyle='_'

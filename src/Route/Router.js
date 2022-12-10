@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../layout/Main";
 import Home from "../Pages/Home";
 import About from "../Pages/About"
+import Skill from "../Pages/Skill";
 
 let route = createBrowserRouter([
     {
@@ -15,6 +16,10 @@ let route = createBrowserRouter([
             {
                 path:"/about",
                 element:<About></About>,
+            },
+            {
+                path:"/skill",
+                element:<Skill/>,
             }
         ]
     }
