@@ -6,6 +6,7 @@ import Skill from "../Pages/Skill";
 import Contract from "../Pages/Contract";
 import Project from "../Pages/Projects";
 import SingleProject from "../Pages/SingleProject";
+import Blogs from "../Pages/Blogs";
 
 let route = createBrowserRouter([
     {
@@ -31,6 +32,10 @@ let route = createBrowserRouter([
             {
                 path:"/contract",
                 element:<Contract/>,
+            },
+            {
+                path:"/blogs",
+                element:<Blogs/>,
             },
             {
                 path:"/SingleProject/:id",

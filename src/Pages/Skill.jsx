@@ -26,6 +26,8 @@ const Skill = () => {
           <Progress done='95'></Progress>
           <h1>JavaScript</h1>
           <Progress done='80'></Progress>
+          <h1>C\C++</h1>
+          <Progress done='75'></Progress>
           <h1>React</h1>
           <Progress done='75'></Progress>
           <h1>Figma</h1>
