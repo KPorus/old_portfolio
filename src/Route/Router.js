@@ -3,8 +3,9 @@ import Main from "../layout/Main";
 import Home from "../Pages/Home";
 import About from "../Pages/About"
 import Skill from "../Pages/Skill";
-import Project from "../Pages/Project";
 import Contract from "../Pages/Contract";
+import Project from "../Pages/Projects";
+import SingleProject from "../Pages/SingleProject";
 
 let route = createBrowserRouter([
     {
@@ -30,6 +31,14 @@ let route = createBrowserRouter([
             {
                 path:"/contract",
                 element:<Contract/>,
+            },
+            {
+                path:"/SingleProject/:id",
+                element:<SingleProject/>,
+                loader:async ({params})=>
+                {
+                    return fetch(`https://protfolio-server-kohl.vercel.app/projects/${params.id}`)
+                }
             }
         ]
     }

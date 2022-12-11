@@ -4,7 +4,6 @@ import emailjs from '@emailjs/browser';
 import { MdEmail } from "react-icons/md";
 import { BsMessenger, BsWhatsapp } from "react-icons/bs";
 import { toast } from "react-hot-toast";
-import { success } from "daisyui/src/colors";
 const Contract = () => {
     const form = useRef();
 

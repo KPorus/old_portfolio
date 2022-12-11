@@ -1,0 +1,14 @@
+[
+           {
+            "title": "Learning Platform",
+            "details":"This website has feature like buying courses of different kind for computer science student and developer.If anybody wants to learn they can buy thier course.",
+            "img":"https://i.ibb.co/b7jDHc6/Web-capture-11-12-2022-103221-sunny-elf-d1deb0-netlify-app.jpg",
+            "skills":
+            ["React","JavaScript","Html5","CSS","React_Dom"]
+           },
+           {
+            "title": "Selecting Five player!",
+            "details":"This project using by raw javascript. In this project user can select five player among all players. And they can calculate player price, coach price and total expenss for team",
+            "img":"https://i.ibb.co/4d1xwy9/Walton-Primo-GH11.jpg"
+           }
+]
