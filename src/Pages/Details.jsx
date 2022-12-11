@@ -38,7 +38,7 @@ const Details = ({ items }) => {
           <a
             href={cient}
             target='_blank'
-            className='tec uppercase font-bold text-[green] text-3xl m-2'>
+            className='tec uppercase font-bold text-[green] text-3xl m-1'>
             <BsGithub />
           </a>
           {server && (
@@ -47,7 +47,7 @@ const Details = ({ items }) => {
               <a
                 href={server}
                 target='_blank'
-                className='tec uppercase font-bold text-[green] text-3xl m-2'>
+                className='tec uppercase font-bold text-[green] text-3xl m-1'>
                 <BiGitRepoForked />
               </a>
             </div>

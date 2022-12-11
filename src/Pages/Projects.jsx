@@ -21,7 +21,7 @@ const Project = () => {
   }
 
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2  gap-14'>
+    <div className='grid grid-cols-1 md:grid-cols-2  gap-6'>
       {project.map((items) => (
         <Details items={items}></Details>
       ))}

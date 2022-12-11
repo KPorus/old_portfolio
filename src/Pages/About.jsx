@@ -30,10 +30,10 @@ const About = () => {
               </span>
             </h1>
             <p className='py-6'>
-              I am a skilled in Front-End Web Developer with knowledge in
+              Hi I am Fardin Khan.I am a skilled in Front-End Web Developer with knowledge in
               React.js, Node.js, Express.js, Google Authentication, MongoDB,
               JavaScript, HTML, CSS, Bootstrap, Tailwind and mobile responsive
-              web development.
+              web development. I am also skilled in using Adobe Photoshop, Adobe illustrator, Figma
             </p>
             <ul>
               <li className='flex items-center gap-2 font-medium'>

@@ -28,6 +28,8 @@ const Skill = () => {
           <Progress done='80'></Progress>
           <h1>React</h1>
           <Progress done='75'></Progress>
+          <h1>Figma</h1>
+          <Progress done='92'></Progress>
         </div>
         <div className='uppercase sm:ml-12'>
           <h1>Mongo DB</h1>
@@ -36,6 +38,10 @@ const Skill = () => {
           <Progress done='75'></Progress>
           <h1>Node Js</h1>
           <Progress done='80'></Progress>
+          <h1>Adobe PhotoShop</h1>
+          <Progress done='90'></Progress>
+          <h1>Adobe illustrator</h1>
+          <Progress done='90'></Progress>
         </div>
       </div>
     </div>

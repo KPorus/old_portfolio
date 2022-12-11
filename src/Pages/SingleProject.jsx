@@ -21,11 +21,11 @@ const SingleProject = () => {
     img,
   } = one;
   return (
-    <div className='hero min-h-screen mt-8'>
+    <div className='w-[94%]sm:hero min-h-screen mt-8'>
       <div className='hero-content flex-col lg:flex-row-reverse'>
-        <img src={img} className='max-w-sm rounded-lg shadow-2xl' />
+        <img src={img} className='w-[94%] sm:max-w-sm rounded-lg shadow-2xl' />
         <div>
-          <h1 className='text-5xl font-bold text-[green] uppercase'>{title}</h1>
+          <h1 className='text-3xl sm:text-5xl font-bold text-[green] uppercase'>{title}</h1>
           <p className='py-6'><span className="text-[green] font-semibold">Explain:</span> {details}</p>
 
           <span className="text-[green] font-semibold">Feature:</span>
@@ -56,7 +56,7 @@ const SingleProject = () => {
             <a
               href={cient}
               target='_blank'
-              className='tec uppercase font-bold text-[green] text-3xl m-2'>
+              className='tec uppercase font-bold text-[green] text-3xl m-1'>
               <BsGithub />
             </a>
             {server && (
@@ -65,7 +65,7 @@ const SingleProject = () => {
                 <a
                   href={server}
                   target='_blank'
-                  className='tec uppercase font-bold text-[green] text-3xl m-2'>
+                  className='tec uppercase font-bold text-[green] text-3xl m-1'>
                   <BiGitRepoForked />
                 </a>
               </div>
@@ -74,7 +74,7 @@ const SingleProject = () => {
             <a
               href={live}
               target='_blank'
-              className='tec uppercase font-bold text-[green] text-3xl m-2'>
+              className='tec uppercase font-bold text-[green] text-3xl m-1'>
               <SiFirefoxbrowser />
             </a>
           </div>

@@ -1,17 +1,17 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import Resume from "../asset/Resume.pdf";
-import Pic from "../asset/20221130_163512.png"
+import Pic from "../asset/profile.png"
 import Social from "./Social";
 const Home = () => {
   return (
     <div>
       <div >
-        <img className="sm:w-[20%] w-[50%] relative sm:left-[40%] left-[25%] mt-4 rounded-full overflow-hidden" src={Pic} alt="pic" />
+        <img className="sm:w-[20%] w-[60%] relative sm:left-[40%] left-[20%] mt-4 rounded-full overflow-hidden" src={Pic} alt="pic" />
       </div>
       <div className='contaner flex flex-col items-center justify-center relative top-[2rem]'>
         <div className='text-center text-xl font-bold'>
-          <h1 className='py-4 text-5xl'>
+          <h1 className='py-4 sm:text-5xl text-3xl'>
             Hi{""}
             <br />I am {""}
             <span style={{ color: "green", fontWeight: "bold" }}>
