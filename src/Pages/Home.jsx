@@ -1,13 +1,17 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import Resume from "../asset/Resume.pdf";
-import Pic from "../asset/profile.png"
+import Pic from "../asset/profile.png";
 import Social from "./Social";
 const Home = () => {
   return (
     <div>
-      <div >
-        <img className="sm:w-[20%] w-[60%] relative sm:left-[40%] left-[20%] mt-4 rounded-full overflow-hidden" src={Pic} alt="pic" />
+      <div>
+        <img
+          className='sm:w-[20%] w-[60%] relative sm:left-[40%] left-[20%] mt-4 rounded-full overflow-hidden'
+          src={Pic}
+          alt='pic'
+        />
       </div>
       <div className='contaner flex flex-col items-center justify-center relative top-[2rem]'>
         <div className='text-center text-xl font-bold'>
@@ -16,7 +20,7 @@ const Home = () => {
             <br />I am {""}
             <span style={{ color: "green", fontWeight: "bold" }}>
               <Typewriter
-                words={["Fardin Khan", "Front-End web developer,Web Developer"]}
+                words={["Fardin Khan", "Front-End web developer","Web Developer"]}
                 loop={1000}
                 cursor
                 cursorStyle='_'
