@@ -20,7 +20,7 @@ const Home = () => {
             <br />I am {""}
             <span style={{ color: "green", fontWeight: "bold" }}>
               <Typewriter
-                words={["Fardin Khan", "Front-End web developer","Web Developer"]}
+                words={["Fardin Khan", "Front-End web developer","React Developer","Mern Stack developer"]}
                 loop={1000}
                 cursor
                 cursorStyle='_'
