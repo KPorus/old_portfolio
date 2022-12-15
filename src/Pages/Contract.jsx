@@ -46,10 +46,10 @@ const Contract = () => {
             <article>
               <BsMessenger className='mx-auto text-xl text-[green]'></BsMessenger>
               <h4>
-                Messenger: <span>profile.php?id=100074017012643</span>
+                Messenger: <span>Md. Fardin Khan</span>
               </h4>
               <a
-                href='https://m.me/profile.php?id=100074017012643'
+                href='https://www.facebook.com/profile.php?id=100074017012643'
                 target='_blank'
                 className='text-[green]'>
                 Messege me
