@@ -34,7 +34,8 @@ const Home = () => {
         <a
           href="https://drive.google.com/file/d/1gq8NS7PlJmAu7j7CPb0qXvy5jZ0Bp2ro/view?usp=share_link"
           download
-          className='md:w-[25%] btn bg-transparent text-sm font-medium text-green-700 uppercase'>
+          className='md:w-[25%] btn bg-transparent text-sm font-medium text-green-700 uppercase'
+          >
           Download Resume
         </a>
         <Social></Social>

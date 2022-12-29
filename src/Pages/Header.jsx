@@ -42,7 +42,7 @@ const Header = () => {
           </ul>
         </div>
         <Link to='/' className='text-xl text-green-500 font-bold'>
-          FADIN KHAN
+          FARDIN KHAN
         </Link>
       </div>
       <div className='navbar-center hidden lg:flex'>

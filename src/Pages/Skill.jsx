@@ -34,6 +34,8 @@ const Skill = () => {
           <Progress done='92'></Progress>
         </div>
         <div className='uppercase sm:ml-12'>
+          <h1>TypeScript</h1>
+          <Progress done='60'></Progress>
           <h1>Mongo DB</h1>
           <Progress done='75'></Progress>
           <h1>Express Js</h1>
