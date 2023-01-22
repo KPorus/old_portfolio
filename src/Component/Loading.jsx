@@ -2,7 +2,13 @@ import React from 'react';
 
 const Loading = () => {
     return (
-        <div className="w-16 h-16 border-4 border-dashed rounded-full animate-spin border-[green] mx-auto"></div>
+      <lottie-player
+        src='https://assets3.lottiefiles.com/packages/lf20_4kmUDEKo63.json'
+        background='transparent'
+        speed='1'
+        style={{width: "300px", height: "300px", margin:"auto"}}
+        loop
+        autoplay></lottie-player>
     );
 };
 
