@@ -36,7 +36,8 @@ const Contract = () => {
               <a
                 href='mailto:mdfardinkhan1952@gmail.com'
                 className='text-[green]'
-                target='_blank'>
+                target='_blank'
+                rel='noreferrer'>
                 Send Email
               </a>
             </article>
@@ -51,7 +52,8 @@ const Contract = () => {
               <a
                 href='https://www.facebook.com/profile.php?id=100074017012643'
                 target='_blank'
-                className='text-[green]'>
+                rel='noreferrer'
+                className='text-[green] '>
                 Messege me
               </a>
             </article>
@@ -64,8 +66,9 @@ const Contract = () => {
                 Whatsapp: <span>+8801969509218</span>
               </h4>
               <a
-                href='https://api.whatsapp.com/send?phone=+8801969509218'
+                href='https://web.whatsapp.com/send?phone=+8801969509218'
                 target='_blank'
+                rel='noreferrer'
                 className='text-[green]'>
                 Whatsapp Me
               </a>
@@ -101,11 +104,16 @@ const Contract = () => {
                 <span className='label-text'>Message: </span>
               </label>
               <textarea
-              name="message"
+                name='message'
                 className='textarea textarea-bordered h-24'
                 placeholder='Your Message'></textarea>
             </div>
-            <button type="submit" className="btn bg-[green] uppercase mt-2">Send Your message</button>
+            <button
+              type='submit'
+              disabled
+              className='btn bg-[green] uppercase mt-2'>
+              Send Your message
+            </button>
           </form>
         </div>
       </div>
