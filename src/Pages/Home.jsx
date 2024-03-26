@@ -20,7 +20,12 @@ const Home = () => {
             <br />I am {""}
             <span style={{ color: "green", fontWeight: "bold" }}>
               <Typewriter
-                words={["Fardin Khan", "Front-End web developer","React Developer","Mern Stack developer"]}
+                words={[
+                  "Fardin Khan",
+                  "Front-End web developer",
+                  "React Developer",
+                  "Mern Stack developer",
+                ]}
                 loop={1000}
                 cursor
                 cursorStyle='_'
@@ -32,10 +37,9 @@ const Home = () => {
           </h1>
         </div>
         <a
-          href="https://drive.google.com/file/d/1gq8NS7PlJmAu7j7CPb0qXvy5jZ0Bp2ro/view?usp=share_link"
+          href='https://drive.google.com/file/d/17padBa3CAgMHHPzHnaLVVUHDfeCWcxfi/view?usp=sharing'
           download
-          className='md:w-[25%] btn bg-transparent text-sm font-medium text-green-700 uppercase'
-          >
+          className='md:w-[25%] btn bg-transparent text-sm font-medium text-green-700 uppercase'>
           Download Resume
         </a>
         <Social></Social>

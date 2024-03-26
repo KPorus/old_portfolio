@@ -37,8 +37,10 @@ const Header = () => {
               <Link to='/project'>PROJECTS</Link>
             </li>
             <li>
-            <Link to='/blogs'>BLOGS</Link>
-          </li>
+              <a href='https://dev.to/kporus/unveiling-the-effects-of-icons-on-website-performance-part-two-4h41'>
+                BLOGS
+              </a>
+            </li>
           </ul>
         </div>
         <Link to='/' className='text-xl text-green-500 font-bold'>
@@ -60,12 +62,18 @@ const Header = () => {
             <Link to='/project'>PROJECTS</Link>
           </li>
           <li>
-            <Link to='/blogs'>BLOGS</Link>
+            <a href='https://dev.to/kporus/unveiling-the-effects-of-icons-on-website-performance-part-two-4h41'>
+              BLOGS
+            </a>
           </li>
         </ul>
       </div>
       <div className='navbar-end'>
-        <Link to="/contract" className='btn uppercase bg-transparent border-[green]'>Let's Talk</Link>
+        <Link
+          to='/contract'
+          className='btn uppercase bg-transparent border-[green]'>
+          Let's Talk
+        </Link>
       </div>
     </div>
   );
